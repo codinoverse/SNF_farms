@@ -1,6 +1,6 @@
 import img1 from "../assets/Img1.jpg";
 import img2 from "../assets/Image2.jpg";
-import img3 from "../assets/img3.jpg";
+import img3 from "../assets/Image3.jpg";
 import "./HomeHero1.css"; 
 
 const HomeHero1 = () => {
