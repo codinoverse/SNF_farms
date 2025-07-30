@@ -19,9 +19,9 @@ const Footer = () => {
             <h5 className="footer-title">Quick Links</h5>
             <ul className="list-unstyled">
               <li><a href="/" className="footer-link">Home</a></li>
-              <li><a href="/aboutme" className="footer-link">About Us</a></li>
-              <li><a href="/products" className="footer-link">Products</a></li>
-              <li><a href="/contact" className="footer-link">Contact Us</a></li>
+              <li><a href="./aboutme" className="footer-link">About Us</a></li>
+              <li><a href="./products" className="footer-link">Products</a></li>
+              <li><a href="./contact" className="footer-link">Contact Us</a></li>
             </ul>
           </div>
 
