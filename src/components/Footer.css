@@ -1,0 +1,43 @@
+.footer {
+  background-color: #1a3c34; /* Dark green for agricultural theme */
+  color: #ffffff;
+}
+
+.footer-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #a8d5a2; /* Light green for headings */
+}
+
+.footer-link {
+  color: #d4e6d1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.btn-success {
+  background-color: #4a7043;
+  border-color: #4a7043;
+}
+
+.btn-success:hover {
+  background-color: #5b8c52;
+  border-color: #5b8c52;
+}
+
+@media (max-width: 767px) {
+  .footer-title {
+    font-size: 1.1rem;
+  }
+}
