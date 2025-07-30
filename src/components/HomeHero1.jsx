@@ -21,7 +21,7 @@ const HomeHero1 = () => {
                             </div>
                         </div>
                     </div>
-
+                    {/* <span></span> */}
                     <div className="col-lg-6 text-center text-lg-start hero1-text">
                         <h2 className=" fw-bold mb-3">We Provide the Green That Brings Comfort to Your Space</h2>
                         <p className="hero@text">
