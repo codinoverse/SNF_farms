@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -9,19 +10,18 @@ const Footer = () => {
           <div className="col-md-4 mb-4">
             <h5 className="footer-title">Santosh Farm's</h5>
             <p>
-              SNF is dedicated to empowering farmers with sustainable solutions, 
+              SNF is dedicated to empowering farmers with sustainable solutions,
               innovative tools, and the latest agricultural insights to grow thriving communities.
             </p>
           </div>
 
-          {/* Quick Links Section */}
           <div className="col-md-4 mb-4">
             <h5 className="footer-title">Quick Links</h5>
             <ul className="list-unstyled">
-              <li><a href="/" className="footer-link">Home</a></li>
-              <li><a href="./aboutme" className="footer-link">About Us</a></li>
-              <li><a href="./products" className="footer-link">Products</a></li>
-              <li><a href="./contact" className="footer-link">Contact Us</a></li>
+              <li><Link to={"/"} className="footer-link">Home</Link></li>
+              <li><Link to={"/aboutme"} className="footer-link">About Us</Link></li>
+              <li><a href="/products" className="footer-link">Products</a></li>
+              <li><a href="/contact" className="footer-link">Contact Us</a></li>
             </ul>
           </div>
 
